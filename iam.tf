@@ -118,7 +118,7 @@ EOF
 
 resource "aws_iam_role_policy" "codepipeline_lambda_execution_policy" {
   name_prefix = "lambda-${module.pipeline_label.id}"
-  role        = "${aws_iam_role.codepipeline.id}"    //"${var.codebuild_role_arn}"
+  role        = "${aws_iam_role.cf.id}"              //"${var.codebuild_role_arn}"
 
   ## TODO: Make this aws_iam_policy_document
   policy = <<EOF
