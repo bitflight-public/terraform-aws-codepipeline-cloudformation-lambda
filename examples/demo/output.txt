@@ -1,0 +1,18 @@
+{
+"StackId": "arn:aws:cloudformation:eu-west-2:797196847456:stack/demo-serverless-deploy/576256a0-6a5f-11e8-8be5-504dcd6bf9fe", 
+"StackName": "demo-serverless-deploy", 
+"ChangeSetId": "arn:aws:cloudformation:eu-west-2:797196847456:changeSet/demo-serverless-deploy-changes/1bb6076b-5f22-417a-87ce-34e014fbee51", 
+"Description": "Outputs the time", 
+"CreationTime": "2018-06-07 14:30:35.550000+00:00", 
+"LastUpdatedTime": "2018-06-07 14:48:25.281000+00:00", 
+"RollbackConfiguration": {}, 
+"StackStatus": "UPDATE_COMPLETE", 
+"DisableRollback": false, 
+"NotificationARNs": [], 
+"Capabilities": ["CAPABILITY_IAM"], 
+"RoleARN": "arn:aws:iam::797196847456:role/cf-action-role-cp-dev-pipeline20180607125518678300000004", 
+"Tags": [], 
+"EnableTerminationProtection": false
+}
+
+{ "StackName": "demo-serverless-deploy"}{"Error:" : "TypeError: list indices must be integers or slices, not str"}{ "StackName": "demo-serverless-deploy"}{ "ApiURL": "https://mc79lgxht1.execute-api.eu-west-2.amazonaws.com/Prod/TimeResource"}{ "StackName": "demo-serverless-deploy"}{ "ApiURL": "https://mc79lgxht1.execute-api.eu-west-2.amazonaws.com/Prod/TimeResource" }{"StackName": ["StackName"], "ApiURL": "https://mc79lgxht1.execute-api.eu-west-2.amazonaws.com/Prod/TimeResource"}{"StackName": "demo-serverless-deploy", "ApiURL": "https://mc79lgxht1.execute-api.eu-west-2.amazonaws.com/Prod/TimeResource"}{"StackName": "demo-serverless-deploy", "ApiURL": "https://mc79lgxht1.execute-api.eu-west-2.amazonaws.com/Prod/TimeResource"}

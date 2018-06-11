@@ -71,6 +71,10 @@ output "codebuild_project_name" {
   value = "${module.codebuild.project_name}"
 }
 
+output "stack_outputs" {
+  value = "${module.pipeline.stack_outputs}"
+}
+
 data "aws_caller_identity" "default" {}
 
 data "aws_region" "default" {}

@@ -94,12 +94,13 @@ resource "aws_codepipeline" "pipeline" {
       }
 
       action {
-        name      = "DeployChangeSet"
-        version   = "1"
-        category  = "Deploy"
-        owner     = "AWS"
-        provider  = "CloudFormation"
-        run_order = 2
+        name             = "DeployChangeSet"
+        version          = "1"
+        category         = "Deploy"
+        owner            = "AWS"
+        provider         = "CloudFormation"
+        output_artifacts = ["cf_artifacts"]
+        run_order        = 2
 
         configuration {
           ActionMode    = "CHANGE_SET_EXECUTE"
