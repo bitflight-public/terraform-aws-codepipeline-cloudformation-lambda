@@ -1,4 +1,4 @@
-# terraform-aws-codepipeline-lambda
+# terraform-aws-codepipeline-cloudformation-lambda
 
 Create an AWS CodePipeline that automates the deployment of your serverless application
 

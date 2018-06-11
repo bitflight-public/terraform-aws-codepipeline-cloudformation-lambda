@@ -3,11 +3,13 @@
 This example uses the AWS SSM Parameter Store to store the GitHub Token.
 This parameter needs to exist in advance of running this demo.
 Details on how to do this in detail with troubleshooting can be [found here](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-paramstore-cli.html)
-
-###TL;DR
-`aws ssm put-parameter --name "GitHubToken" --value "XXXXXXXYOURTOKENXXXXXXX" --type String`
 Key name: `GitHubToken`
 
+###TL;DR
+
+```sh
+aws ssm put-parameter --name "GitHubToken" --value "XXXXXXXYOURTOKENXXXXXXX" --type String
+```
 
 This example also uses Terraform to add a second parameter to Parameter Store for storing the Lambda code inside.
 Key name: `/serverless/buildspec/s3-bucket-name`
