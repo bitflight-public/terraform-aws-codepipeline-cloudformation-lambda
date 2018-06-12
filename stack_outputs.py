@@ -33,3 +33,6 @@ def main():
 if __name__ == '__main__':
     main()
     sys.exit(0)
+
+## Details on what else could be pulled out of the CF json.
+## https://boto3.readthedocs.io/en/latest/reference/services/cloudformation.html#CloudFormation.Client.describe_stacks

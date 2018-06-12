@@ -12,7 +12,7 @@ module "pipeline" {
 
   namespace              = "cp"
   name                   = "pipeline"
-  stage                  = "dev"
+  stage                  = "stag"
   deploy_type            = "LAMBDA"
   action_mode            = "CHANGE_SET_REPLACE"
   stack_name             = "demo-serverless-deploy"
